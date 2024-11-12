@@ -10,24 +10,6 @@ if (a + b > c && a + c > b && b + c > a) {
 }
 
 
-//exercise 2
-let question = prompt ("0 немесе одан жогары бутын сан енгізіңіз:");
-let result = 1;
-    switch (true) {
-        case ( question < 0):
-            alert("Факториалды тек 0 немесе одан жоғары сандар үшін есептей аламыз");
-            break;
-        case (question === 0):
-            alert("Санның факториалы: 1");
-            break;
-        default:
-            for (let i = 1; i <= question; i++) {
-                result *= i;
-            }
-            alert("Санның факториалы:result");
-            break;
-    }
-
 // exercise3
 let gradee = prompt("0-ден 100-ге дейін ұпай енгізіңіз:");
 
